@@ -10,6 +10,12 @@ public class hashmapdemo extends DemoApplication {
 		obj.put("Shree", 30);
 		obj.put("Shreyo", 40);
 		System.out.println(obj);
+		
+		System.out.println(obj.get("Shreya"));
+		
+		System.out.println(obj.remove("Shreya",20)); //false
+		System.out.println(obj.remove("Shreya"));
+		System.out.println(obj);
 	}
 
 }
